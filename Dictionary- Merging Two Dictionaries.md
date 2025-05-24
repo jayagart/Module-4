@@ -10,9 +10,16 @@ To write a Python program that merges **two dictionaries** and combines their ke
 3. Call the `merge()` function and print the merged dictionary.
 
 ## 🧾 Program
+```
+dict1 = {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
+dict2 = {'Thirty': 30, 'Fourty': 40, 'Fifty': 50}
+dict1.update(dict2)
+print(dict1)
 
-Add code here
+```
 
 ## Output
+![image](https://github.com/user-attachments/assets/b38b6013-6596-45a7-81f0-0d2bfd426185)
 
 ## Result
+The program successfully merges two dictionaries using the unpacking operator, with overlapping keys in dict2 overwriting those in dict1.
